@@ -1,0 +1,61 @@
+finalProjectBio/main.py
+There are 18 monotonic regulation conditions.
+
+All 18 monotonic regulation conditions are: 
+
+0. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=False), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+1. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=True))
+
+
+2. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=True), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+3. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=True), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=True), (n=2, m=2, target=True))
+
+
+4. ((n=0, m=0, target=False), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=True))
+
+
+5. ((n=0, m=0, target=False), (n=0, m=1, target=False), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+6. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=True))
+
+
+7. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+8. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=True), (n=2, m=2, target=True))
+
+
+9. ((n=0, m=0, target=False), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=True))
+
+
+10. ((n=0, m=0, target=False), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+11. ((n=0, m=0, target=False), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=True), (n=2, m=2, target=True))
+
+
+12. ((n=0, m=0, target=False), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=False), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+13. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+14. ((n=0, m=0, target=True), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=True), (n=1, m=1, target=True), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=True))
+
+
+15. ((n=0, m=0, target=False), (n=0, m=1, target=True), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+16. ((n=0, m=0, target=False), (n=0, m=1, target=False), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=False), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=False))
+
+
+17. ((n=0, m=0, target=False), (n=0, m=1, target=False), (n=0, m=2, target=True), (n=1, m=0, target=False), (n=1, m=1, target=False), (n=1, m=2, target=True), (n=2, m=0, target=False), (n=2, m=1, target=False), (n=2, m=2, target=True))
+
+
+
+Process finished with exit code 0
