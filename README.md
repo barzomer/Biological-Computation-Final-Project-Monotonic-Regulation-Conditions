@@ -17,11 +17,12 @@ The function generateAllNecessaryBasicMonotonicRegulationConditions() is used to
 ### main.py
 A main file for the project.
 
-The function generateAllBasicSystems(IN,AC) generates every BasicSystem object within the range of activators and inhibitors in this assignment (0-2).
+The function generateAllBasicSystems(IN,AC) generates every BasicSystem object within the range of activators and inhibitors in this assignment (0-2). Each basic system corresponds to a basic monotonic condition (minimum activators, minimum inhibitors).
 
-The code runs each BasicSystem object 
+After that, with those basic monotonic regulation conditions we expand and complete our set of monotonic regulation conditions by 
+committing monotonicity-preserving operations for boolean functions - AND , OR, between the basic monotonic regulation conditions (functions) that we have already found.
 
-The code outputs a list of all monotonic functions it has calculated for the system.
+Finally, the code outputs a list of all monotonic functions it has calculated for the system, and for each instance - whether it will activate or not (target=True/False).
 ### results.xlsx
 A Table with the main.py output organized, visualized and compared to Table D of the Assignment, ordered by the numbering in Table D.
 
@@ -29,8 +30,23 @@ Each active cell is called TRUE and is labeled in red.
 
 Since our code is deterministic, we can expect the outputted conditions to be of same order and numbering in each run. We have matched their numbering with the numbering Table D to show equivilance.
 
+### printout.txt
+A printout of the output from the run of main.py.
+
+Each line details a different monotonic condition and its output for each instance of our system.
+
+conditions are numbered from 0 to 17.
+
 ## Our results
 
+As seen in printout.txt, we have got an output of 18 functions - same as expected in the assignment.
+
+In results.xlsx, we have organzied our output, ordered it in accordance with Table D's ordering, and visualized it:
+
+![Our Results](https://github.com/user-attachments/assets/24205263-65e0-4ab3-b61c-475a6ba61902)
+
+And as you can see, it corresponds with the expected results in Table D:
+![Table D](https://github.com/user-attachments/assets/8adeef3d-e7b6-4574-bf1a-afc9348d8fbd)
 
 
 ## How to Run
