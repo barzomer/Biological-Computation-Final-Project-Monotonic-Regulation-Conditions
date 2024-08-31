@@ -31,7 +31,7 @@ Since our code is deterministic, we can expect the outputted conditions to be of
 
 ## Our results
 
-As explain
+
 
 ## How to Run
 * Download BasicSystem.py , main.py to your local computer.
