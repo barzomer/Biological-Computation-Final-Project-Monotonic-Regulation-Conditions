@@ -12,7 +12,8 @@ class BasicSystem:
 
     def __repr__(self):
         return f"(n={self.n_1}, m={self.m_1}, target={self.target})"
-    
+        # return f"{self.target}" #for csv conversion
+
     # Checks if this BasicSystem instance is equal to another instance (for making this class compatible with set data structure):
     def __eq__(self, other):
         if isinstance(other, BasicSystem):
